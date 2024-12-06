@@ -13,14 +13,9 @@ Aplikasi backend berbasis Node.js yang dirancang untuk mengelola data terkait ka
 - **Sets** 
     -Mengelola data koleksi kartu, seperti jumlah kartu, tanggal rilis, dan distribusi kelangkaan.
 
-## Installasi
-Untuk menggunakan program ini, install proyek dan dependensi
-```bash
-npm install
-
 Rute berikut tersedia untuk setiap koleksi (*collection*) seperti `archetypes`, `cards`, `effects`, `rarities`, dan `sets`:
 
-## Format Umum
+## API Endpoints
 
 | Metode HTTP | Endpoint                                     | Deskripsi                      |
 |-------------|----------------------------------------------|--------------------------------|
@@ -33,3 +28,8 @@ Rute berikut tersedia untuk setiap koleksi (*collection*) seperti `archetypes`, 
 | GET         | `/api/[collection]/count`                    | Mengambil total jumlah entri   |
 
 Ganti `[collection]` dengan nama koleksi, seperti `archetypes`, `cards`, dan sebagainya.
+
+## Installasi
+Untuk menggunakan program ini, install proyek dan dependensi
+```bash
+npm install
