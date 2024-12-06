@@ -1,5 +1,5 @@
 # RESTful-Final-Project
-Aplikasi backend berbasis Node.js yang dirancang untuk mengelola data terkait kartu Yugioh. API ini memungkinkan pengguna untuk melakukan operasi CRUD (Create, Read, Update, Delete) pada berbagai entitas 
+API untuk mengelola data kartu Yugioh, termasuk Archetypes, Cards, Effects, Rarities, dan Sets. API ini memungkinkan pengguna untuk melakukan operasi CRUD seperti membuat, membaca, memperbarui, dan menghapus data.
 
 ## Fitur
 - **Archetypes**
