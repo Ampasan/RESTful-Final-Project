@@ -16,7 +16,7 @@ route.get("/getall", fetchRarities);
 route.put("/update/:id", updateRarity);
 route.delete("/delete/:id", deleteRarity);
 route.get("/get/:id", getRarityById);
-route.get("/search", searchRarityByName);
+route.get("/search/?name={name}", searchRarityByName);
 route.get("/count", fetchRaritiesCount);
 
 export default route;
