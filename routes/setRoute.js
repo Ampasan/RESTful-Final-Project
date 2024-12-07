@@ -16,7 +16,7 @@ route.get("/getall", fetchSets);
 route.put("/update/:id", updateSet);
 route.delete("/delete/:id", deleteSet);
 route.get("/get/:id", getSetById);
-route.get("/search", searchSetByName);
+route.get("/search/?name={name}", searchSetByName);
 route.get("/count", fetchSetsCount);
 
 export default route;
