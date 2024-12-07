@@ -17,7 +17,7 @@ route.get("/getall", fetchCards);
 route.put("/update/:id", updateCard);
 route.delete("/delete/:id", deleteCard);
 route.get("/get/:id", getCardById);
-route.get("/search/?name={name}", searchCardByName);
+route.get("/search", searchCardByName);
 route.get("/count", fetchCardsCount);
 
 export default route;
