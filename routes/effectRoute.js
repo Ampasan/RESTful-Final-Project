@@ -16,7 +16,7 @@ route.get("/getall", fetchEffects);
 route.put("/update/:id", updateEffect);
 route.delete("/delete/:id", deleteEffect);
 route.get("/get/:id", getEffectById);
-route.get("/search", searchEffectByName);
+route.get("/search/?name={name}", searchEffectByName);
 route.get("/count", fetchEffectsCount); 
 
 export default route;
