@@ -17,7 +17,7 @@ route.get("/getall", fetchArchetypes);
 route.put("/update/:id", updateArchetype);
 route.delete("/delete/:id", deleteArchetype);
 route.get("/get/:id", getArchetypeById);
-route.get("/search/?name={name}", searchArchetypeByName);
+route.get("/search", searchArchetypeByName);
 route.get("/count", fetchArchetypesCount);
 
 export default route;
